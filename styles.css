@@ -15,7 +15,7 @@ body {
 #nav-bar {
     background: #1F2937;
     height: 60px;
-    padding: 0 15.625vw;        /* About 300 pixels */
+    padding: 0 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +23,7 @@ body {
 
 #nav-bar p {
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
@@ -38,4 +39,60 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+#hero-section {
+    background-color: #1F2937;
+    height: 400px;
+    padding: 100px 300px;
+    display: flex;
+    gap: 40px;
+}
+
+#hero-introduction {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-basis: 700px;
+}
+
+#hero-introduction h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero-introduction p {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-introduction button {
+    align-self: flex-start;
+}
+
+#hero-image {
+    background-color: grey;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-image p {
+    color: white;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 32px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+
+.outline {
+    border: 2px solid white;
 }
