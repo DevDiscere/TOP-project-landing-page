@@ -8,4 +8,34 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-bar {
+    background: #1F2937;
+    height: 60px;
+    padding: 0 15.625vw;        /* About 300 pixels */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
